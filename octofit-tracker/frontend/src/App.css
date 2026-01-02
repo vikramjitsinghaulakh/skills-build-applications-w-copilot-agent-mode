@@ -1,0 +1,103 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 60px;
+  margin-right: 1rem;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link {
+  color: #f8fafc !important;
+  font-weight: 500;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3a0ca3;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #4361ee;
+  text-decoration: none;
+}
+a:hover, .App-link:hover {
+  color: #3a0ca3;
+  text-decoration: underline;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.table thead {
+  background: #3a0ca3;
+  color: #fff;
+}
+
+.btn, .btn-primary {
+  background: #3a0ca3;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #4361ee;
+}
+
+.card {
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+.modal-content {
+  border-radius: 0.75rem;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+input, select, textarea {
+  border-radius: 0.3rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bdb2ff;
+  border-radius: 4px;
+}
